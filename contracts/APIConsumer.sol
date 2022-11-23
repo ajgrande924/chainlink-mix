@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "@chainlink/contracts/src/v0.8/ChainlinkClient.sol";
+import "@chainlink-0.8.0/contracts/src/ChainlinkClient.sol";
 
 contract APIConsumer is ChainlinkClient {
     using Chainlink for Chainlink.Request;

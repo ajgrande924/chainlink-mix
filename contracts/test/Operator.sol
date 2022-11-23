@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.7.0;
 
-import "@chainlink/contracts/src/v0.7/AuthorizedReceiver.sol";
-import "@chainlink/contracts/src/v0.7/LinkTokenReceiver.sol";
-import "@chainlink/contracts/src/v0.7/ConfirmedOwner.sol";
-import "@chainlink/contracts/src/v0.7/interfaces/LinkTokenInterface.sol";
-import "@chainlink/contracts/src/v0.7/interfaces/OperatorInterface.sol";
-import "@chainlink/contracts/src/v0.7/interfaces/OwnableInterface.sol";
-import "@chainlink/contracts/src/v0.7/interfaces/WithdrawalInterface.sol";
-import "@chainlink/contracts/src/v0.7/vendor/Address.sol";
-import "@chainlink/contracts/src/v0.7/vendor/SafeMathChainlink.sol";
+import "@chainlink-0.7.0/contracts/src/AuthorizedReceiver.sol";
+import "@chainlink-0.7.0/contracts/src/LinkTokenReceiver.sol";
+import "@chainlink-0.7.0/contracts/src/ConfirmedOwner.sol";
+import "@chainlink-0.7.0/contracts/src/interfaces/LinkTokenInterface.sol";
+import "@chainlink-0.7.0/contracts/src/interfaces/OperatorInterface.sol";
+import "@chainlink-0.7.0/contracts/src/interfaces/OwnableInterface.sol";
+import "@chainlink-0.7.0/contracts/src/interfaces/WithdrawalInterface.sol";
+import "@chainlink-0.7.0/contracts/src/vendor/Address.sol";
+import "@chainlink-0.7.0/contracts/src/vendor/SafeMathChainlink.sol";
 
 /**
  * @title The Chainlink Operator contract
